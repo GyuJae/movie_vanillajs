@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Nomad Movie</h1>
+      <ul>
+        <li>
+          popular
+          <div class="list_box none">
+            Get a list of the current popular movies on TMDB. This list updates
+            daily.
+          </div>
+        </li>
+        <li>
+          tv
+          <div class="list_box none">
+            Get a list of all the TV episodes you have rated.
+          </div>
+        </li>
+        <li>
+          now
+          <div class="list_box none">
+            Get a list of all the movies you have added to your watchlist.
+          </div>
+        </li>
+      </ul>
+    </header>
+    <main></main>
+    <div class="modal_overlay no_overlap">
+      <div class="modal_container">
+        <div class="close">✖</div>
+      </div>
+    </div>
+    <footer>
+      <span class="prev">prev</span>
+      <span class="pagination"></span>
+      <span class="next">next</span>
+    </footer>
+    <script src="movie.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>

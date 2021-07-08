@@ -1,0 +1,93 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(20, 20, 20);
+  color: #faecec;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  margin-right: 50px;
+}
+header ul li:last-child {
+  margin-right: 0px;
+}
+
+.list_box {
+  position: absolute;
+  background-color: #000000;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.movie_container {
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+  grid-template-rows: repeat(4, 440px);
+}
+
+.title {
+  font-size: 15px;
+  width: 190px;
+}
+
+img {
+  width: 200px;
+  height: 320px;
+}
+
+.none {
+  display: none;
+}
+
+.modal_overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1b1b1b;
+  opacity: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_container {
+  width: 70%;
+  height: 80%;
+  position: fixed;
+  background-color: #000000;
+  border-radius: 3px;
+}
+
+.close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  font-size: 18px;
+}
+
+.close:hover {
+  font-size: 20px;
+}
+
+.no_overlap {
+  visibility: hidden;
+}
+
+.none {
+  visibility: hidden;
+}
