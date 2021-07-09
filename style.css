@@ -91,3 +91,10 @@ img {
 .none {
   visibility: hidden;
 }
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
